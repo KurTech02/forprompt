@@ -3,7 +3,7 @@
 	<head>
 		<script type="text/javascript">
 <!--
-function checkscope() {
+function checkscope( ) {
 var name = prompt("Do you love music?")
 alert("Hope you like some of my music, Thank You");
 window.location.href = "https://flamboyant-euler-ceb638.netlify.app";
@@ -86,7 +86,7 @@ UNFAMILIAR.src = "UNFAMILIAR.mp3";
 	</script>
 	
 	
-<center><button class="glow-on-hover" type="button" control="true" click="checkscope()" onmousedown="POLARIS.play()">Polaris by December Avenue!</button><center>
+<center><button class="glow-on-hover" type="button" control="true" onmousedown="POLARIS.play()" onclick="checkscope( )">Polaris by December Avenue!</button><center>
 	<audio controls>
 	<source src="POLARIS.mp3" type="audio/mpeg">
 </audio>
