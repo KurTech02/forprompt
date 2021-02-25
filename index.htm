@@ -10,6 +10,8 @@ window.location.href = "https://kulasmusicforlife.netlify.app";
 }
 
 //-->
+			var sound = new Audio();
+sound.src = "POLARIS.mp3";
 </script><right>
 <div class="section">
 		<marquee><h1>Enjoy Listening!</h1></marquee>
@@ -83,7 +85,7 @@ window.location.href = "https://kulasmusicforlife.netlify.app";
 	<audio controls>
 	<source src="POLARIS.mp3" type="audio/mpeg">
 </audio>
-	<h3><em type="button" class="glow-on-hover">Unfamiliar by December Avenue</em></h3>
+	<h3><em type="button" class="glow-on-hover" onmousedown ="sound.play()">Unfamiliar by December Avenue</em></h3>
 	<audio controls loop>
 	<source src="UNFAMILIAR.mp3" type="audio/mpeg">
 </audio>
