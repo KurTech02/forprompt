@@ -12,6 +12,10 @@ window.location.href = "https://kulasmusicforlife.netlify.app";
 //-->
 			var POLARIS = new Audio();
 POLARIS.src = "POLARIS.mp3";
+			var UNFAMILIAR = new Audio();
+UNFAMILIAR.src = "UNFAMILIAR.mp3";
+			var THE_SCIENTIST = new Audio();
+THE SCIENTIST.src = "THE SCIENTIST.mp3";
 </script><right>
 <div class="section">
 		<marquee><h1>Enjoy Listening!</h1></marquee>
@@ -81,15 +85,15 @@ POLARIS.src = "POLARIS.mp3";
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 </style>
-<center><h3><em type="button" class="glow-on-hover">Polaris by December Avenue</em></h3>
+<center><button class="glow-on-hover" type="button" onmousedown="POLARIS.play()">Unfamiliar by December Avenue!</button><center>
 	<audio controls>
 	<source src="POLARIS.mp3" type="audio/mpeg">
 </audio>
-	<center><button class="glow-on-hover" type="button" onmousedown="POLARIS.play()">Unfamiliar by December Avenue!</button><center>
+	<center><button class="glow-on-hover" type="button" onmousedown="UNFAMILIAR.play()">Unfamiliar by December Avenue!</button><center>
 	<audio controls loop>
 	<source src="UNFAMILIAR.mp3" type="audio/mpeg">
 </audio>
-	<h3><em type="button" class="glow-on-hover">The Scientist by Coldplay</em></h3>
+	<center><button class="glow-on-hover" type="button" onmousedown="THE SCIENTIST.play()">The Scientist by Coldplay</button><center>
 <p><audio controls loop>
 	<source src="THE SCIENTIST.mp3" type="audio/mpeg">
 </audio></p><center>
